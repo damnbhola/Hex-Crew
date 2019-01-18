@@ -23,16 +23,19 @@ gap{
 #b1,#b0{
     text-align: right;
 }
+#in:hover {
+  border:4px solid #e50404;
+}
 
-#b1 input{
-  font-size: 20px;
+#in {
+  border-radius: 10px;
   margin: 5px;
-  padding: 10px;
-  width: 100px;
   background-color: Transparent;
-  color: red;
   cursor: pointer;
-  border: none;
+  color: red;
+  font-size: 20px;
+  padding: 10px;
+  border:4px solid Transparent;
 }
 
 #b2{
@@ -45,6 +48,19 @@ gap{
   border-style: solid;
   border-width: thin;
 }
+#b3:hover {
+border-radius: 10px;
+border:4px solid #e50404;
+}
+
+#b3 {
+  font-size: 30px;
+  padding:5px;
+  color:red;
+  background-color: Transparent;
+  cursor: pointer;
+  border:4px solid Transparent;
+}
 
 #navigation{
   background-color:	#1a1a1a;
@@ -56,6 +72,15 @@ li {
   display: inline-block;
   padding: 5px;
 }
+a:hover {
+  text-decoration: none;
+  color: red;
+  font-size: 20px;
+  border-radius: 10px;
+  padding:5px;
+  border:4px solid #e50404;
+}
+
 
 a{
   text-decoration: none;
