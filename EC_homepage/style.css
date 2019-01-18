@@ -1,0 +1,97 @@
+body{
+  background-color: #0d0d0d;
+}
+
+.header{
+  background-color: black;
+  width: 100%;
+}
+
+#logo{
+  padding-left: 25px;
+  width: 200px;
+}
+
+#logo img{
+  padding-left: 20px;
+}
+
+#b1,#b0{
+    text-align: right;
+}
+
+#b1 input{
+  font-size: 20px;
+  margin: 5px;
+  padding: 10px;
+  width: 100px;
+  background-color: Transparent;
+  color: red;
+  cursor: pointer;
+  border: none;
+}
+
+#b2{
+  font-size: 20px;
+  width: 300px;
+  padding: 10px;
+  background-color: Transparent;
+  color: red;
+  border-color: grey;
+  border-style: solid;
+  border-width: thin;
+}
+
+#navigation{
+  background-color:	#1a1a1a;
+  margin-top: 15px;
+  height: 70px;
+}
+
+li {
+  display: inline-block;
+  padding: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: red;
+  font-size: 20px;
+}
+
+#feed{
+  background-color:	#1a1a1a;
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+  margin-top: 15px;
+}
+
+#description tr td img{
+  width: 220px;
+  height: 150px;
+}
+
+#about_company{
+  background-color:	#1a1a1a;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  margin-top: 15px;
+}
+
+#footer{
+  text-align: center;
+  background-color:	#000000;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-top: 15px;
+}
+
+#footer ul li img{
+  width: 40px;
+  height: 40px;
+}
