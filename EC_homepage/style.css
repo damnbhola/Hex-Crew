@@ -95,6 +95,7 @@ a{
 #description tr td img{
   width: 220px;
   height: 150px;
+  cursor: pointer;
 }
 
 #about_company{
