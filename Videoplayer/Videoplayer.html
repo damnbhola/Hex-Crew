@@ -3,6 +3,7 @@
     <title>
       Video
     </title>
+    <link rel="stylesheet" href="../Employ_feed/Employ_feed.css">
   </head>
   <style>
   body {
@@ -26,27 +27,28 @@
     color:#ffffff;
   }
   div.vidlist {
-    height:1000px;
-    width:420px;
+    position: absolute;
+    right: 0px;
+    height:inherit;
+    width:36.5%;
     border-radius: 20px;
-    border:10px solid #e50404;
-    float:right;
+    border:3px solid #e50404;
   }
   div.panel{
     height:440px;
-    width:720px;
+    width:61.5%;
     border-radius: 20px;
-    border:10px solid #e50404;
+    border:3px solid #e50404;
     float:left;
-    margin:10px;
+    margin:2px;
   }
   div.box{
     height:80px;
-    width:750px;
+    width:62%;
     border-radius: 10px;
-    border:10px solid #e50404;
+    border:3px solid #e50404;
     float:left;
-    margin:10px;
+    margin:2px;
   }
   .ae {
   background-color: #1B1B1B;
@@ -56,49 +58,85 @@
   border-radius: 10px;
   }
   .ter {
-    margin-left: 620px;
+    margin-left: 80%;
   }
   div.comment_section{
     height:440px;
-    width:750px;
+    width:62%;
     border-radius: 10px;
-    border:10px solid #e50404;
+    border:3px solid #e50404;
     float:left;
-    margin:10px;
+    margin:2px;
+  }
+  #round {
+    border-radius:12px;
   }
   </style>
   <body>
+
+  <div class="panel">
+    <video id="round"
+      width="100%" height="100%"
+      controls
+      preload
+      loop>
+      <source src="teeth.mov"  />
+      <p>A video of a puppy playing in the snow</p>
+    </video>
+  </div><div class="box">
+    <ol class="main">
+      <li class="in"> Description about video</li>
+    <li class="in" ><input type="image" src="./like.jpeg" height="40" width="40">
+  </input></li>
+  <li class="in" ><input type="image" src="./share.png" height="40" width="40">
+</input></li>
+<li class="in" ><input  type="image"src="./down.png" height="40" width="40">
+</input></li>
+</ol>
+  </div>
+  <div class="comment_section">
+    <label for="comments">
+          <h3>
+           Comments:-
+         </h3>
+         </label>
+         <br />
+         <textarea class="ae" rows="4" cols="40" id="comments">
+         </textarea>
+         <input class="ter"type="submit" value="Submit">
+    <br />
+  </div>
     <div class="vidlist">
       <table>
-        <tr class="area"><td>      <video src="Akash.mov"
+        <tr class="area"><td>      <video  id="round" src="slap.mov"
                 width="200" height="150"
                 preload
                 controls
                 loop >
               </video></td>
             <td> <p>A video of a puppy playing in the snow</p></td></tr>
-        <tr class="area"><td>      <video src="Ritik2.mov"
+        <tr class="area"><td>      <video id="round" src="dance.mov"
                 width="200" height="150"
                 preload
                 controls
                 loop>
               </video></td>
               <td> <p>A video of a puppy playing in the snow</p></td></tr>
-        <tr class="area"><td>      <video poster="IMG_20170826_103312.jpg"
+        <tr class="area"><td>      <video id="round" poster="IMG_20170826_103312.jpg"
                 width="200" height="150"
                 preload
                 controls
                 loop>
               </video></td>
               <td> <p>A video of a puppy playing in the snow</p></td></tr>
-        <tr class="area"><td>      <video poster="IMG_20170826_110239718.jpg"
+        <tr class="area"><td>      <video id="round" poster="IMG_20170826_110239718.jpg"
                 width="200" height="150"
                 preload
                 controls
                 loop>
               </video></td>
               <td> <p>A video of a puppy playing in the snow</p></td></tr>
-        <tr class="area"><td>      <video src="demoproject.mp4"
+        <tr class="area"><td>      <video id="round" src="demoproject.mp4"
                 width="200" height="150"
                 preload
                 controls
@@ -106,7 +144,7 @@
                 <p>A video of a puppy playing in the snow</p>
               </video></td>
               <td> <p>A video of a puppy playing in the snow</p></td></tr>
-        <tr class="area"><td>      <video src="demoproject.mp4"
+        <tr class="area"><td>      <video id="round" src="comedy.mp4"
                 width="200" height="150"
                 preload
                 controls
@@ -114,40 +152,7 @@
               </video></td>
               <td> <p>A video of a puppy playing in the snow</p></td></tr>
       </table>
-    </div>
-    <div class="panel">
-      <video
-        width="720" height="440"
-        poster="download.jpg"
-        controls="controls"
-        preload
-        loop>
-        <source src="Ritik2.mov"  />
-        <p>A video of a puppy playing in the snow</p>
-      </video>
-    </div>
-    <div class="box">
-      <ol class="main">
-        <li class="in"> Description about video</li>
-      <li class="in" ><input type="image" src="./like.jpeg" height="40" width="40">
-    </input></li>
-    <li class="in" ><input type="image" src="./share.png" height="40" width="40">
-  </input></li>
-  <li class="in" ><input  type="image"src="./down.png" height="40" width="40">
-</input></li>
-</ol>
-    </div>
-    <div class="comment_section">
-      <label for="comments">
-            <h3>
-             Comments:-
-           </h3>
-					 </label>
-					 <br />
-					 <textarea class="ae" rows="4" cols="50" id="comments">
-					 </textarea>
-           <input class="ter"type="submit" value="Submit">
-      <br />
-    </div>
+</div>
+
     <body>
   </body>
